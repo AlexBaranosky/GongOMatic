@@ -1,0 +1,6 @@
+      #234  ** some message
+00:00:03    ** some message
+#00:00:20   ** some message
+00:00:20    ** some message
+           #hhh ** some message
+00:01:00    ** some message
