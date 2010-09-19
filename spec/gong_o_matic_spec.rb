@@ -1,10 +1,7 @@
 require 'spec'
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\path_making'
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\gong_o_matic'
+require File.dirname(__FILE__) + '/../src/gong_o_matic.rb'
 
-include PathMaking
-
-DURATIONS_FILE  = resource_path('durations_for_test.txt')
+DURATIONS_FILE  = File.dirname(__FILE__) + '/durations_for_test.txt'
 
 describe GongOMatic do
 

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="925ee24a-1ecd-46e0-bb7c-86452d8232a2" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" readonly="true" id="925ee24a-1ecd-46e0-bb7c-86452d8232a2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/audio_player.rb" afterPath="$PROJECT_DIR$/src/audio_player.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser.rb" afterPath="$PROJECT_DIR$/src/parser.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/run_gong_o_matic.rb" afterPath="$PROJECT_DIR$/src/run_gong_o_matic.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/gong_o_matic_spec.rb" afterPath="$PROJECT_DIR$/spec/gong_o_matic_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\resources\durations_for_test.txt" afterPath="$PROJECT_DIR$/spec/durations_for_test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/string_ext.rb" afterPath="$PROJECT_DIR$/src/string_ext.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gong_o_matic.rb" afterPath="$PROJECT_DIR$/src/gong_o_matic.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ScheduledGongs.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +31,16 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="ScheduledGongs">
       <requirement>
-        <dependency name="win32-api" version="0" bound="GREATER_OR_EQUAL" git="false" />
+        <dependency name="win32-api" version="1.4.5" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <requirement>
-        <dependency name="windows-pr" version="1.0.6" bound="GREATER_OR_EQUAL" git="false" />
+        <dependency name="win32-api" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <requirement>
         <dependency name="windows-pr" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <requirement>
-        <dependency name="win32-api" version="1.4.5" bound="GREATER_OR_EQUAL" git="false" />
+        <dependency name="windows-pr" version="1.0.6" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
     </module>
   </component>
@@ -40,19 +50,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="run_gong_o_matic.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/run_gong_o_matic.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="path_making.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/path_making.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +62,7 @@
       <file leaf-file-name="gong_o_matic.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gong_o_matic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="67" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+            <state line="8" column="61" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,6 +77,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="audio_player.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio_player.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="52" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_routine.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sample_routine.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bikram_yoga_routine.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/bikram_yoga_routine.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="33" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.5846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="practice_routine_segment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice_routine_segment.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bikram_yoga_routine.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/bikram_yoga_routine.txt">
+      <file leaf-file-name="run_gong_o_matic.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/run_gong_o_matic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="33" selection-start="3246" selection-end="3246" vertical-scroll-proportion="2.5891583">
+            <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,16 +125,7 @@
       <file leaf-file-name="string_ext.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string_ext.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="35" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gong_o_matic_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/gong_o_matic_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,15 +135,6 @@
         <entry file="file://$PROJECT_DIR$/src/speaker.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="14" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,18 +154,18 @@
         <option value="$PROJECT_DIR$/resources/life-improvement.txt" />
         <option value="$PROJECT_DIR$/resources/post_intensive_plan.txt" />
         <option value="$PROJECT_DIR$/resources/nonmartial_routine.txt" />
-        <option value="$PROJECT_DIR$/spec/gong_o_matic_spec.rb" />
-        <option value="$PROJECT_DIR$/src/parser.rb" />
         <option value="$PROJECT_DIR$/resources/durations_for_test.txt" />
         <option value="$PROJECT_DIR$/src/console_printer.rb" />
-        <option value="$PROJECT_DIR$/src/audio_player.rb" />
         <option value="$PROJECT_DIR$/resources/sample_routine.txt" />
-        <option value="$PROJECT_DIR$/src/run_gong_o_matic.rb" />
         <option value="$PROJECT_DIR$/src/speaker.rb" />
         <option value="$PROJECT_DIR$/resources/half_time_bikram_yoga_routine.txt" />
-        <option value="$PROJECT_DIR$/src/gong_o_matic.rb" />
-        <option value="$PROJECT_DIR$/src/string_ext.rb" />
         <option value="$PROJECT_DIR$/resources/bikram_yoga_routine.txt" />
+        <option value="$PROJECT_DIR$/src/string_ext.rb" />
+        <option value="$PROJECT_DIR$/src/parser.rb" />
+        <option value="$PROJECT_DIR$/src/run_gong_o_matic.rb" />
+        <option value="$PROJECT_DIR$/src/audio_player.rb" />
+        <option value="$PROJECT_DIR$/src/gong_o_matic.rb" />
+        <option value="$PROJECT_DIR$/spec/gong_o_matic_spec.rb" />
       </list>
     </option>
   </component>
@@ -185,8 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,14 +257,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Ruby.run_gong_o_matic">
     <configuration default="false" name="Parser should save headings for heading lines (which means, beginning with ** and end with **)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -480,21 +490,21 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="0" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4547486" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20386007" sideWeight="0.83128494" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20386007" sideWeight="0.77430165" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16089386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21787709" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19888268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -531,24 +541,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/sample_routine.txt">
+    <entry file="file://$PROJECT_DIR$/src/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
+        <state line="1" column="42" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio_player.rb">
+    <entry file="file://$PROJECT_DIR$/spec/gong_o_matic_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="88" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/path_making.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gong_o_matic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" />
+        <state line="10" column="48" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/console_printer.rb">
@@ -556,19 +560,30 @@
         <state line="3" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gong_o_matic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/path_making.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice_routine_segment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string_ext.rb">
+    <entry file="file://$PROJECT_DIR$/src/run_gong_o_matic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/gong_o_matic_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" />
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/speaker.rb">
@@ -576,21 +591,28 @@
         <state line="12" column="14" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser.rb">
+    <entry file="file://$PROJECT_DIR$/src/string_ext.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/run_gong_o_matic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio_player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="52" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sample_routine.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/bikram_yoga_routine.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="33" selection-start="3246" selection-end="3246" vertical-scroll-proportion="2.5891583">
+        <state line="121" column="33" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.5846154">
           <folding />
         </state>
       </provider>

@@ -1,5 +1,5 @@
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\practice_routine_segment'
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\string_ext'
+require File.dirname(__FILE__) + '/../src/practice_routine_segment'
+require File.dirname(__FILE__) + '/../src/string_ext'
 
 class Parser
   PRACTICE_SEGMENT_LINE_REGEX = /^\s*\d\d:\d\d:\d\d\s+\*\*.*$/

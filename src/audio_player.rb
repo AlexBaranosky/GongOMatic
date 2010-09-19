@@ -1,11 +1,11 @@
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\speaker'
-require 'C:\Users\Alex and Paula\Documents\Software Projects\ScheduledGongs\src\path_making'
+require File.dirname(__FILE__) + '/../src/speaker'
+require File.dirname(__FILE__) + '/../src/path_making'
 require 'win32/sound'
 include Win32
 include PathMaking
 
 class AudioPlayer
-  GONG_WAV = 'blong2.wav'
+  GONG_WAV = File.dirname(__FILE__) + '/../resources/blong2.wav'
 
   def initialize(speaker = Speaker.new)
     @speaker = speaker
@@ -22,7 +22,7 @@ class AudioPlayer
 
   def wait_then_ring_gong(seconds)
     sleep(seconds)
-    Sound.play(resource_path(GONG_WAV))
+    Sound.play(GONG_WAV)
   end
 
 end

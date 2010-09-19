@@ -1,5 +1,4 @@
-class String
-
+module SuperString
   def blank?
     strip == ''
   end
@@ -7,5 +6,9 @@ class String
   def comment?
     match(/^\s*#/)
   end
-
 end
+
+class String
+  include SuperString
+end
+
