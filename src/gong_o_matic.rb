@@ -1,12 +1,6 @@
-require File.dirname(__FILE__) + '/../src/path_making'
 require File.dirname(__FILE__) + '/../src/parser'
 require File.dirname(__FILE__) + '/../src/console_printer'
 require File.dirname(__FILE__) + '/../src/audio_player'
-
-include PathMaking
-
-SAMPLE_ROUTINE = File.dirname(__FILE__) + '/../resources/sample_routine.txt'
-BIKRAM_YOGA_ROUTINE = File.dirname(__FILE__) + '/../resources/bikram_yoga_routine.txt'
 
 class GongOMatic
 

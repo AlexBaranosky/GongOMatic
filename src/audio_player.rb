@@ -1,8 +1,6 @@
 require File.dirname(__FILE__) + '/../src/speaker'
-require File.dirname(__FILE__) + '/../src/path_making'
 require 'win32/sound'
 include Win32
-include PathMaking
 
 class AudioPlayer
   GONG_WAV = File.dirname(__FILE__) + '/../resources/blong2.wav'
