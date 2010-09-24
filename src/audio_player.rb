@@ -11,7 +11,7 @@ class AudioPlayer
 
   def play(practice_routine_segments)
     practice_routine_segments.each do |segment|
-      @speaker.speak(segment.message) if segment.message
+      @speaker.speak(segment.message) if segment.has_message?
       wait_then_ring_gong(segment.duration)
     end
   end

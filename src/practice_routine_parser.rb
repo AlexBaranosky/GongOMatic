@@ -1,8 +1,8 @@
 require File.dirname(__FILE__) + '/../src/practice_routine_segment'
-require File.dirname(__FILE__) + '/../src/string_ext'
+require File.dirname(__FILE__) + '/../src/string_extensions'
 
-class Parser
-  PRACTICE_SEGMENT_LINE_REGEX = /^\s*\d\d:\d\d:\d\d\s+\*\*.*$/
+class PracticeRoutineParser
+  PRACTICE_ROUTINE_LINE_REGEX = /^\s*\d\d:\d\d:\d\d\s+\*\*.*$/
   DURATION_PARTS_DELIMITER = ':'
 
   def self.parse_line(line)
@@ -17,7 +17,7 @@ class Parser
   end
 
   def self.practice_segment_from(line)
-    raise("invalid line format: \n#{line}") unless(line.match(PRACTICE_SEGMENT_LINE_REGEX))
+    raise("invalid line format: \n#{line}") unless(line.match(PRACTICE_ROUTINE_LINE_REGEX))
 
     duration_part_of_line = line.split(DURATION_PARTS_DELIMITER)
     seconds = parse_seconds_from(duration_part_of_line)

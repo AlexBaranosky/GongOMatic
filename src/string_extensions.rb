@@ -1,4 +1,4 @@
-module SuperString
+module StringExtensions
   def blank?
     strip == ''
   end
@@ -9,6 +9,6 @@ module SuperString
 end
 
 class String
-  include SuperString
+  include StringExtensions
 end
 

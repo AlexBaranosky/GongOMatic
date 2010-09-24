@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../src/parser'
+require File.dirname(__FILE__) + '/../src/practice_routine_parser'
 require File.dirname(__FILE__) + '/../src/console_printer'
 require File.dirname(__FILE__) + '/../src/audio_player'
 
@@ -17,10 +17,10 @@ class GongOMatic
   private
 
   def read_practice_routine_from(file_name)
-    raise('durations file not found') unless File.exists?(file_name)
+    raise('practice routine file not found') unless File.exists?(file_name)
 
     File.open(file_name).inject([]) do |parsed_lines, file_line|
-      practice_routine_segment = Parser.parse_line(file_line)
+      practice_routine_segment = PracticeRoutineParser.parse_line(file_line)
       practice_routine_segment ? parsed_lines << practice_routine_segment : parsed_lines
     end
   end

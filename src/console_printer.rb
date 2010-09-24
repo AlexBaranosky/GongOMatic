@@ -5,7 +5,7 @@ class ConsolePrinter
     puts '<<< The Schedule >>>'
     total_duration = 0
     practice_segments.each_with_index do |segment, idx|
-      total_duration = total_duration + segment.duration
+      total_duration += segment.duration
       puts "#{(idx+1).to_s.rjust(2)}) #{hours_minutes_and_seconds(segment.duration)}   #{segment.message}"
     end
     puts "total time: #{hours_minutes_and_seconds(total_duration)}"
