@@ -1,13 +1,12 @@
-require File.dirname(__FILE__) + '/../src/practice_routine_segment'
+require File.dirname(__FILE__) + '/../src/practice_routine_part'
 require File.dirname(__FILE__) + '/../src/string_extensions'
 
-class PracticeRoutineParser
+class PracticeRoutinePartParser
   PRACTICE_ROUTINE_LINE_REGEX = /^\s*\d\d:\d\d:\d\d\s+\*\*.*$/
   DURATION_PARTS_DELIMITER = ':'
 
-  def self.parse_line(line)
-    return nil unless practice_segment_line?(line)
-    practice_segment_from(line)
+  def self.parse(line)
+    practice_segment_line?(line) ?  practice_segment_from(line) : nil
   end
 
   private
@@ -22,7 +21,7 @@ class PracticeRoutineParser
     duration_part_of_line = line.split(DURATION_PARTS_DELIMITER)
     seconds = parse_seconds_from(duration_part_of_line)
     message = line.split("**")[1]
-    PracticeRoutineSegment.new(seconds, message)
+    PracticeRoutinePart.new(seconds, message)
   end
 
   def self.parse_seconds_from(duration_part_of_line)

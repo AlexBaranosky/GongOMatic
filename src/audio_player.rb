@@ -5,14 +5,14 @@ include Win32
 class AudioPlayer
   GONG_WAV = File.dirname(__FILE__) + '/../resources/blong2.wav'
 
-  def initialize(speaker = Speaker.new)
-    @speaker = speaker
+  def initialize
+    @speaker = Speaker.new
   end
 
-  def play(practice_routine_segments)
-    practice_routine_segments.each do |segment|
-      @speaker.speak(segment.message) if segment.has_message?
-      wait_then_ring_gong(segment.duration)
+  def play(routine_parts)
+    routine_parts.each do |p|
+      @speaker.speak(p.message) if p.has_message?
+      wait_then_ring_gong(p.duration)
     end
   end
 

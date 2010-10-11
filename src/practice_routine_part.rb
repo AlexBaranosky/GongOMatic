@@ -1,4 +1,4 @@
-class PracticeRoutineSegment
+class PracticeRoutinePart
   attr_reader :duration, :message
 
   def initialize(duration, message)

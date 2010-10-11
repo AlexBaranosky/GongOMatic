@@ -1,10 +1,10 @@
 class ConsolePrinter
   TIME_DELIMITER = ':'
 
-  def print_schedule(practice_segments)
+  def print_schedule(routine_parts)
     puts '<<< The Schedule >>>'
     total_duration = 0
-    practice_segments.each_with_index do |segment, idx|
+    routine_parts.each_with_index do |segment, idx|
       total_duration += segment.duration
       puts "#{(idx+1).to_s.rjust(2)}) #{hours_minutes_and_seconds(segment.duration)}   #{segment.message}"
     end
