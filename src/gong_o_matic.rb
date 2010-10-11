@@ -4,15 +4,10 @@ require File.dirname(__FILE__) + '/../src/audio_player'
 
 class GongOMatic
 
-  def initialize
-    @console_printer = ConsolePrinter.new
-    @audio_player = AudioPlayer.new
-  end
-
   def run(file_name)
     routine_parts = read_practice_routine(file_name)
-    @console_printer.print_schedule(routine_parts)
-    @audio_player.play(routine_parts)
+    ConsolePrinter.new.print_schedule(routine_parts)
+    AudioPlayer.new.play(routine_parts)
   end
 
   private
