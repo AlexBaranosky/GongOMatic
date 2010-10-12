@@ -15,10 +15,10 @@ class GongOMatic
   def read_practice_routine(file_name)
     raise('practice routine file not found') unless File.exists?(file_name)
 
-    routine_parts = File.open(file_name).inject([]) do |parts, line|
-      parts << PracticeRoutinePartParser.parse(line)
+    File.open(file_name).inject([]) do |parts, line|
+      part = PracticeRoutinePartParser.parse(line)
+      part ? parts << part : parts
     end
-    routine_parts.reject { |p| p.nil? }
   end
 end
 
