@@ -5,11 +5,15 @@ class PracticeRoutinePart
     @duration, @message = duration, message
   end
 
+  def scale_duration_by(multiplier)
+    @duration *= multiplier
+  end
+
   def has_message?
     true if message
   end
 
   def to_s
-    "d: #{@duration}, m: #{@message}"
+    "d: #{@duration.to_i}, m: #{@message}"
   end
 end

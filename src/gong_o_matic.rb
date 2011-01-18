@@ -3,6 +3,7 @@ require File.dirname(__FILE__) + '/../src/console_printer'
 require File.dirname(__FILE__) + '/../src/audio_player'
 
 class GongOMatic
+  MULTIPLIER = 1.50
 
   def run(file_name)
     routine_parts = read_practice_routine(file_name)
@@ -17,7 +18,12 @@ class GongOMatic
 
     File.open(file_name).inject([]) do |parts, line|
       part = PracticeRoutinePartParser.parse(line)
-      part ? parts << part : parts
+      if part
+        part.scale_duration_by(MULTIPLIER)
+        parts << part
+      else
+        parts
+      end
     end
   end
 end
